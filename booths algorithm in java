@@ -157,7 +157,7 @@ class GFG
         complement(mt, brn); 
         qrn = 4; 
 
-
+        sc = qrn;
 
         int qr[] = {1, 0, 1, 0}; 
         reverse(qr); 
