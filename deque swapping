@@ -1,0 +1,18 @@
+    #include <iostream>  
+    #include<deque>  
+    using namespace std;  
+    int main()  
+    {  
+        deque<int> first={1,2,3,4};  
+        deque<int> second={10,20,30,40,50};  
+        deque<int>::iterator itr;  
+        first.swap(second);  
+        cout<<"Content of first deque:";  
+        for(itr=first.begin();itr!=first.end();++itr)  
+        cout<<*itr<<" ";  
+        cout<<'\n';  
+        cout<<"Content of second deque:";  
+         for(itr=second.begin();itr!=second.end();++itr)  
+        cout<<*itr<<" ";  
+        return 0;  
+        }  
